@@ -1,0 +1,8 @@
+server {
+      listen 80;
+      server_name open-lab.org www.open-lab.org open-lab.16b.org;
+      root /srv/www/open-lab.org/current/public;   # <--- be sure to point to 'public'!
+      passenger_enabled on;
+}
+
+

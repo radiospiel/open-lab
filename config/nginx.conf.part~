@@ -1,0 +1,8 @@
+server {
+      listen 80;
+      server_name 16b.org www.16b.org;
+      root /srv/www/16b.org/current/public;   # <--- be sure to point to 'public'!
+      passenger_enabled on;
+}
+
+
